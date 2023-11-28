@@ -52,7 +52,8 @@ app.use("/", function (err, req, res, next) {
   res.render("error");
 });
 
-const uri = "mongodb://localhost:27017/test";
+const uri =
+  "mongodb+srv://mubashirlatif000:vHEq3u8IgyMiADSX@cluster0.fjfpjuy.mongodb.net/";
 mongoose.set("strictQuery", false);
 mongoose
   .connect(uri, {
